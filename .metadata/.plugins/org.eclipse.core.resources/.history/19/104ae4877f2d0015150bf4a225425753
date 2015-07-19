@@ -1,0 +1,12 @@
+package com.peabody505.Utils;
+
+public class ChatUtils {
+	
+	public static void broadcast(String msg) {
+		
+	}
+	
+	private static String starter(String color) {
+		if (color.equalsIgnoreCase("blue"))
+	}
+}

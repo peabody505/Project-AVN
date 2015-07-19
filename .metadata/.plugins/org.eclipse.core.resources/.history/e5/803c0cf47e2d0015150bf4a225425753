@@ -1,0 +1,24 @@
+package com.peabody505.Threads;
+
+public class StartCountdown implements Runnable{
+
+	private static int timeUntilStart;
+	
+	public void run() {
+		
+		timeUntilStart = 30;
+		while(true) {
+			for (; timeUntilStart >=0; timeUntilStart--) {
+				if (timeUntilStart == 0) {
+					//TODO START GAME
+					break;
+				}
+				
+				if (timeUntilStart % 10==0 || timeUntilStart < 10) {
+					
+				}
+			}
+		}
+	}
+	
+}

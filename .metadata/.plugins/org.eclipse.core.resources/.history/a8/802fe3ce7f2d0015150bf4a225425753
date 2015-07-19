@@ -1,0 +1,29 @@
+package com.peabody505.Utils;
+
+public class ChatUtils {
+	
+	public static void broadcast(String msg) {
+		
+	}
+	
+	private static String starter(String color) {
+		if (color.equalsIgnoreCase("blue")) {
+			return "§3§l >> §b";
+		} else 
+		if (color.equalsIgnoreCase("red")) {
+			return "§3§l >> §b";
+		} else
+		if (color.equalsIgnoreCase("green")) {
+			return "§3§l >> §b";
+		} else
+		if (color.equalsIgnoreCase("yellow")) {
+			return "§3§l >> §b";
+		} else
+		if (color.equalsIgnoreCase("pink")) {
+			return "§3§l >> §b";
+		} else
+		if (color.equalsIgnoreCase("white")) {
+			return "§3§l >> §b";
+		}
+	}
+}

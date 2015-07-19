@@ -1,0 +1,14 @@
+package com.peabody505;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class DD extends JavaPlugin{
+	
+	public static void start() {
+		
+	}
+
+	public static void stop() {
+		
+	}
+}
